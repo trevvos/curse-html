@@ -1,0 +1,14 @@
+header {
+  height: 750px;
+}
+
+.bg-header {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  width: 100%;
+}
+.logo {
+  width: 127px;
+  height: 127px;
+  margin: 70px auto 50px;
+}
