@@ -32,9 +32,24 @@
 
 body {
   background-color: var(--gray-200);
+  color: var(--gray-500);
+}
+
+.subtitle-highlight {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+h1 {
+  font: var(--title-lg);
 }
 
 .container {
   max-width: 1366px;
-  margin-inline: auto;
+  margin: auto;
 }
