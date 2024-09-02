@@ -19,10 +19,6 @@ header {
   margin-block: 100px 30px;
 }
 
-.subtitle {
-  font: var(--subtitle);
-}
-
 .tags {
   display: flex;
   flex-direction: row;
@@ -63,4 +59,11 @@ header {
 
 .tag-html {
   color: var(--red);
+}
+
+.bg-header > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
 }
