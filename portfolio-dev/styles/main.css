@@ -1,9 +1,26 @@
 main {
   display: flex;
   flex-direction: column;
-  text-align: center;
+
+  align-items: center;
 }
 
 .projects {
   margin-top: 50px;
+  max-width: 1040px;
+}
+
+.card {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  padding: 15px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
 }

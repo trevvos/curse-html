@@ -1,5 +1,6 @@
 .grid {
   display: grid;
+  gap: 30px;
 }
 
 .grid-cols-3 {
@@ -19,6 +20,10 @@
 .text-md {
   font: var(--title-md);
   color: var(--gray-600);
+}
+
+.title-sm {
+  font: var(--title-sm);
 }
 
 .subtitle {

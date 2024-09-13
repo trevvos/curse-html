@@ -6,7 +6,8 @@ header {
   gap: 10px;
 }
 
-.bg-header {
+.bg-header,
+.bg-contact {
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
   width: 100%;

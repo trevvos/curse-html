@@ -1,0 +1,39 @@
+.bg-services {
+  background-color: var(--gray-100);
+  width: 100%;
+  margin-top: 100px;
+}
+
+.services {
+  width: 888px;
+  justify-content: center;
+  padding-block: 80px;
+}
+
+.services > p,
+h1 {
+  text-align: center;
+}
+
+.services > p {
+  padding-block: 15px;
+}
+
+.container-services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.box-services {
+  border: 3px solid var(--gray-200);
+  width: 280px;
+  height: 155px;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.box-services img {
+  margin-bottom: 20px;
+}
